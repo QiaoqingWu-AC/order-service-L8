@@ -1,7 +1,8 @@
-'use strict'
-
 const path = require('path')
 const AutoLoad = require('@fastify/autoload')
+
+// load environment variables from .env file
+require('dotenv').config();
 
 module.exports = async function (fastify, opts) {
 // Place here your custom code!

@@ -13,10 +13,11 @@
   "license": "ISC",
   "dependencies": {
     "@azure/identity": "^4.2.1",
-    "@azure/service-bus": "^7.9.4",
+    "@azure/service-bus": "^7.9.5",
     "@fastify/autoload": "^5.0.0",
     "@fastify/cors": "^8.3.0",
     "@fastify/sensible": "^4.1.0",
+    "dotenv": "^16.4.7",
     "fastify": "^4.0.0",
     "fastify-cli": "^4.4.0",
     "fastify-plugin": "^3.0.0",
